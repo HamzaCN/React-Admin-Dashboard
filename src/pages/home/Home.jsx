@@ -5,7 +5,7 @@ import Sidebar from '../../components/sidebar/Sidebar';
 import Widgets from '../../components/widgets/Widgets';
 import Chart from '../../components/chart/Chart';
 import Featured from '../../components/featured/Featured';
-
+import Table from '../../components/table/Table';
 
 const Home = (props) => {
     return (
@@ -23,6 +23,13 @@ const Home = (props) => {
               <Featured />
               <Chart />
            </div>
+            <div className='listContainer'>
+                <div className='listTitle'>
+                    <h3>Latest Transactions</h3>
+                </div>
+                <Table />
+            </div>
+
             </div>
         </div>
     );
