@@ -12,7 +12,7 @@ const Featured = () => {
         <div className='featured'>
            <div className='top'>
            <h1 className='title'>
-           Total Revenue
+           Total Revenue Generated
            </h1>
             <MoreVertOutlinedIcon fontSize='small'/>
            </div>
